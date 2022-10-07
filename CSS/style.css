@@ -1,0 +1,69 @@
+/* universel selector */
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* Id selector */
+body{
+    background-color: rgb(0, 255, 85);
+}
+/* Id selector */
+#admin-box {
+    background-color: rgb(0, 170, 255);
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    padding:  50%px;
+    border-radius: 20px;
+    
+}
+/* Descendant Selector */
+#admin-box h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+/* Grouping selector */
+
+input,
+label {
+    display:   block;
+    width: 65%;
+    margin: 10px auto;
+}
+label {
+    font-size:  17px;
+    text-transform: uppercase ;
+}
+input {
+    padding:  10px;
+    border: 1px solid black;
+    background-color:  transparent;
+    font-size: 17px;
+    outline: 0;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    transition: ease-in-out 0.ms;
+
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: maroon;
+    border: 1px solid black;
+
+}
+input::placeholder{
+    color: black;
+}
+p{
+    font-size: 17px;
+}
+p a {
+    color: red;
+    text-decoration: none;
+    
+}
